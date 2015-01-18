@@ -1,0 +1,25 @@
+use_xft yes
+xftfont verdana:size=10
+alignment bottom_right
+gap_x 15
+gap_y 45
+xftalpha 0.8
+own_window true
+own_window_argb_visual true
+own_window_transparent true
+own_window_type desktop
+double_buffer yes
+draw_shades no
+draw_outline no
+draw_borders yes
+stippled_borders 10
+border_width 1
+use_spacer none
+no_buffers yes
+uppercase no
+minimum_size 5 10
+update_intervall 60
+
+
+TEXT
+${exec emacs -batch -l ~/.conky/emacs.el -eval '(org-batch-agenda "a")'}

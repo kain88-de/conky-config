@@ -1,0 +1,32 @@
+use_xft yes
+xftfont verdana:size=10
+alignment top_right
+gap_x 15
+gap_y 45
+xftalpha 0.8
+own_window true
+own_window_argb_visual true
+own_window_transparent true
+own_window_type desktop
+double_buffer yes
+draw_shades no
+draw_outline no
+draw_borders yes
+stippled_borders 10
+border_width 1
+use_spacer none
+no_buffers yes
+uppercase no
+minimum_size 5 10
+update_intervall 60
+
+
+# show the org-mode agenda
+#${exec emacs -batch -l ~/.emacs.d/init.el -eval '(org-batch-agenda "a")' 2>/dev/null}
+TEXT
+${color #ffcb48}Org-Mode ${hr 1}
+C-c a  =  agenda view
+C-c C-s = schedule task for a date
+<SPC>-a a = agenda view
+
+${color #ffcb48}Emacs ${hr 1}
