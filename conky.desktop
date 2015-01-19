@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Conky
+Comment=Start my three conky sessions
+Exec=sh -c "\$HOME/.conky/start_conky.sh"
