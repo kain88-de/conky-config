@@ -5,8 +5,9 @@ gap_x 15
 gap_y 45
 xftalpha 0.8
 own_window true
+own_window_colour black
 own_window_argb_visual true
-own_window_transparent true
+own_window_argb_value 100
 own_window_type desktop
 double_buffer yes
 draw_shades no

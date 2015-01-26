@@ -25,8 +25,9 @@ update_intervall 60
 #${exec emacs -batch -l ~/.emacs.d/init.el -eval '(org-batch-agenda "a")' 2>/dev/null}
 TEXT
 ${color #ffcb48}Org-Mode ${hr 1}
-C-c a  =  agenda view
 C-c C-s = schedule task for a date
 <SPC>-a a = agenda view
+C-c C-t = change task status
 
 ${color #ffcb48}Emacs ${hr 1}
+Kill Buffer in IBuffer-mode. Mark it with `m` then hit `D`
