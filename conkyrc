@@ -38,6 +38,7 @@ ${top name 3} ${top pid 3} ${top cpu 3} ${top mem 3}
 ${color #ffcb48}HDD ${hr 1}${color}
 ${font ConkySymbols:size=16}m${font} ROOT: ${fs_used /}/${fs_size /}
 ${font ConkySymbols:size=16}m${font} HOME: ${fs_used /home}/${fs_size /home}
+${font ConkySymbols:size=16}m${font} SCIENCE: ${fs_used /mnt/science}/${fs_size /mnt/science}
 ${color E08121}
 ${font ConkySymbols:size=18}s${font}  uptime:  ${uptime}
 
